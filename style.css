@@ -149,8 +149,8 @@ svg {
     background-position: center;
 }
 
-ul,
-ul li {
+.contacts__list,
+.contacts__item{
     list-style: none;
 }
 
