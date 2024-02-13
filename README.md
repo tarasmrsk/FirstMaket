@@ -7,5 +7,3 @@ ___
 ___
 [Mobile menu](https://github.com/tarasmrsk/FirstMaket/blob/maket2/mobile_menu.html)
 ___
-[Mobile menu](https://github.com/tarasmrsk/FirstMaket/blob/maket2/mobile_menu.html)
-___
