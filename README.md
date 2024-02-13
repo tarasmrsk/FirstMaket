@@ -4,5 +4,6 @@ ___
 ## Ссылки
 
 Посмотреть на [Github pages](https://tarasmrsk.github.io/FirstMaket/)
-Посмотреть на [mobile_menu]([https://github.com/tarasmrsk/FirstMaket/blob/maket2/mobile_menu.html]
+___
+[Mobile menu](https://github.com/tarasmrsk/FirstMaket/blob/maket2/mobile_menu.html)
 ___
