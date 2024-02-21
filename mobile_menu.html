@@ -7,6 +7,7 @@
     <title>CPS</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
     <div class="body__mobile-menu">
         <header class="header header__mobile-menu">
@@ -16,11 +17,11 @@
             </div>
             <button class="button button--search button-style"></button>
         </header>
-        <main class="main main__mobile-menu">
+        <main class="main__menu">
             <nav class="mobile-menu">
                 <ul class="list list--menu">
                     <li class="mobile-menu__item">
-                        <a href="#" class="link link--menu link--menu--active">Ремонт техники</a>
+                        <a href="#" class="link link--menu link--menu--active" autofocus>Ремонт техники</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="#" class="link link--menu">Услуги и сервисы</a>
@@ -47,35 +48,34 @@
             </nav>
         </main>
         <footer class="footer__mobile-footer">
-            <div class="contacts footer__contacts">
-                <ul class="contacts__list">
-                    <li class="contacts__item">
-                        <button class="button button--call button-style "></button>
-                    </li>
-                    <li class="contacts__item">
-                        <button class="button button--chat button-style "></button>
-                    </li>
-                    <li class="contacts__item">
-                        <button class="button button--profile button-style "></button>
-                    </li>
-                </ul>
-            </div>
-            <a class="link link--mail" href="mailto:mail@cps.com">mail@cps.com</a>
-            <a class="link link--phone" href="tel:88008908900">8 800 890 8900</a>
-            <nav class="language">
-                <ul class="language__list">
-                    <li class="language__item">
-                        <a href="#" class="link link--language link--language-active">RU</a>
-                    </li>
-                    <li class="language__item">
-                        <a href="#" class="link link--language">EN</a>
-                    </li>
-                    <li class="language__item">
-                        <a href="#" class="link link--language">CH</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="contacts__list contacts__mobile">
+                <li class="contacts__item">
+                    <button class="button button--call button-style "></button>
+                </li>
+                <li class="contacts__item">
+                    <button class="button button--chat button-style "></button>
+                </li>
+                <li class="contacts__item">
+                    <button class="button button--profile button-style "></button>
+                </li>
+            </ul>
+            <address class="address">
+                <a class="link link--mail" href="mailto:mail@cps.com">mail@cps.com</a>
+                <a class="link link--phone" href="tel:88008908900">8 800 890 8900</a>
+            </address>
+            <ul class="language__list">
+                <li class="language__item">
+                    <a href="#" class="link link--language link--language-active">RU</a>
+                </li>
+                <li class="language__item">
+                    <a href="#" class="link link--language">EN</a>
+                </li>
+                <li class="language__item">
+                    <a href="#" class="link link--language">CH</a>
+                </li>
+            </ul>
         </footer>
     </div>
 </body>
+
 </html>

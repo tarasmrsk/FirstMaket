@@ -5,5 +5,5 @@ ___
 
 Посмотреть на [Github pages](https://tarasmrsk.github.io/FirstMaket/)
 ___
-[Mobile menu](https://github.com/tarasmrsk/FirstMaket/blob/maket2/mobile_menu.html)
+[Репозиторий](https://github.com/tarasmrsk/FirstMaket)
 ___
