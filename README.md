@@ -7,3 +7,5 @@ ___
 ___
 [Репозиторий](https://github.com/tarasmrsk/FirstMaket)
 ___
+[Макет 1.5](https://tarasmrsk.github.io/FirstMaket/services.html)
+___
