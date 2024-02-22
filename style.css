@@ -8,6 +8,10 @@ body {
     height: 400px;
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
 .page {
     background-color: #F8F8F8;
     background-size: 100%;
@@ -374,11 +378,6 @@ body {
     top: -4px;
 }
 
-.contacts__mobile {
-    position: relative;
-    left: -40px;
-}
-
 .address {
     font-style: normal;
 }
@@ -496,21 +495,22 @@ body {
     position: relative;
 }
 
-.swiper-slide {
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    border: 1px solid #EAEAEA;
-}
-
-.content-company {
+.card {
     display: grid;
     align-items: center;
     width: 224;
     height: 72px;
     padding-left: 16px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
 }
 
-.content-company::before {
+.card:hover {
+    cursor: pointer;
+}
+
+.card::before {
     content: "";
     width: 8px;
     height: 8px;
@@ -522,7 +522,7 @@ body {
     transform: rotate(45deg);
 }
 
-.content-company::after {
+.card::after {
     content: "";
     width: 40px;
     height: 40px;
@@ -557,6 +557,13 @@ body {
 
 .clickButton {
     margin-top: 24px;
+}
+
+.clickButton:hover {
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 0 #1B1C21;
+    transition: all 0.3s;
 }
 
 .close-button::before {
@@ -779,10 +786,9 @@ body {
     .swiper::after {
         content: "";
         position: absolute;
-        left: 296px;
-        bottom: 25px;
         width: 25px;
         height: 81px;
+        left: 296px;
         z-index: 10;
         background: linear-gradient(90deg, transparent, #F8F8F8);
     }
