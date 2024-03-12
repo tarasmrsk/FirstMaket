@@ -1,0 +1,65 @@
+@import 'style.scss';
+
+.link__menu:focus {
+  outline: none;
+}
+
+.list__menu {
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+.link__menu {
+  display: inline-block;
+  font-family: "TTLakes-Medium", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $black-blue-color;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.link:hover {
+  color: $pale-blue-color;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.link__menu:focus {
+  color: $pale-blue-color;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.link__menu:hover::before,
+.link__menu:focus::before {
+  transition-duration: 0.7s;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  background-color: $light-turquoise-color;
+  border-radius: 0px 20px 20px 0px;
+  left: -24px;
+  top: -4px;
+}
+
+.link__menu--active{
+  color: $pale-blue-color;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.link__menu--active:before{
+  transition-duration: 0.7s;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  background-color: $light-turquoise-color;
+  border-radius: 0px 20px 20px 0px;
+  left: -24px;
+  top: -4px;
+}

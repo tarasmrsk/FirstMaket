@@ -1,0 +1,73 @@
+@import 'style.scss';
+
+.window {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 5;
+  right: 0;
+  top: 0;
+  padding-top: 32px;
+  width: 440px;
+  height: 100%;
+  background-color: $secondary-color;
+  box-shadow: -10px 0 50px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.window-open {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+.form__window {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.button__close--window {
+  position: absolute;
+  top: 32px;
+  left: -72px;
+}
+
+.agreement__letter {
+  font-size: 14px;
+  line-height: 16px;
+  color: $pale-blue-color;
+  margin-bottom: 19px;
+  .agreement__letter--color {
+    color: $pink-color;
+  }
+}
+
+.input,
+.textarea {
+  font-family: inherit;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid $smoky-white-color;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .window {
+    width: 320px;
+  }
+
+  .form__window {
+    padding: 16px;
+  }
+
+  .button__close--window {
+    position: relative;
+    left: 16px;
+    top: 0;
+    margin-bottom: 32px;
+  }
+}

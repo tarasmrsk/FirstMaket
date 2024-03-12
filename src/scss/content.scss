@@ -1,0 +1,33 @@
+@import 'style.scss';
+
+.content {
+  background-color: $primary-color;
+  position: relative;
+  .content-text {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "TTLakes-Light", Arial, serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $pale-blue-color;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background-image: linear-gradient(to right, $primary-color, $secondary-color);
+    height: 80px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.content::before{
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background-color: $light-cyan-color;
+  top: 0px;
+  left: 0px;
+}

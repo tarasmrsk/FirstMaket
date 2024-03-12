@@ -1,0 +1,53 @@
+@import 'style.scss';
+
+.contacts__list {
+  display: flex;
+  padding: 0;
+}
+
+.address {
+  font-style: normal;
+}
+
+.link--mail {
+  display: block;
+  font-family: "TTLakes-Medium", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $black-blue-color;
+  margin-bottom: 12px;
+}
+
+.link--phone {
+  display: block;
+  font-family: "TTLakes-Bold", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: $black-blue-color;
+  margin-bottom: 40px;
+}
+
+.language__list {
+  padding: 0;
+  margin-bottom: 32px;
+
+}
+
+.language__item {
+  display: inline-block;
+}
+
+.link--language {
+  font-family: "TTLakes-Medium", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $black-blue-color;
+  margin-right: 5px;
+}
+
+.link--language-active {
+  color: $pale-blue-color;
+}

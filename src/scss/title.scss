@@ -1,0 +1,28 @@
+@import 'style.scss';
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title__text {
+  font-family: "TTLakes-Bold", Arial, sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  color: $black-blue-color;
+  position: relative;
+  padding-left: 16px;
+  margin: 0;
+}
+
+.title__text::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background-color: $light-turquoise-color;
+  border-radius: 0px 20px 20px 0px;
+  left: 0px;
+}

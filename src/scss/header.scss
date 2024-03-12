@@ -1,0 +1,46 @@
+@import 'style.scss';
+
+.header {
+  display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    background-color: $secondary-color;
+    padding: 0 16px 0 16px;
+    height: 88px;
+  .header__menu {
+    margin-right: 20px;
+    position: relative;
+  }
+  .header__logo {
+    flex-grow: 1;
+    margin-left: 16px;
+  }
+}
+
+.header::before {
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background-color: $light-cyan-color;
+  top: 87px;
+  left: 0px;
+}
+
+.header__menu::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  top: 4px;
+  right: -20px;
+  background-color: $smoky-white-color;
+}
+
+.button--menu {
+  background-image: url(../img/burger.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

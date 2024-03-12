@@ -1,0 +1,26 @@
+.contacts__list {
+  display: flex;
+  position: relative;
+  .contacts__item {
+    margin-right: 16px;
+    list-style: none;
+  }
+}
+
+.button--call {
+  background-image: url(../img/call.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button--chat {
+  background-image: url(../img/chat.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button--profile {
+  background-image: url(../img/profile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,42 @@
+@import 'style.scss';
+
+.card-equipment {
+  margin-left: auto;
+  margin-right: auto;
+  width: 224px;
+  height: 160px;
+}
+
+.card-equipment:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid $pink-color;
+  border-right: 2px solid $pink-color;
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  transform: rotate(45deg);
+}
+
+.card-equipment:after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid $pink-color;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.link-equipment {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $black-blue-color;
+  padding: 16px 0 0 16px;
+  text-decoration: none;
+}

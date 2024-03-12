@@ -1,0 +1,41 @@
+@import 'style.scss';
+
+.status {
+  position: relative;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.status::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  top: 4px;
+  left: -20px;
+  background-color: $smoky-white-color;
+}
+
+.status .status__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.status .status__item {
+  display: flex;
+}
+
+.button--repair {
+  background-image: url(../img/repair.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 16px;
+}
+
+.button--checkstatus {
+  background-image: url(../img/checkstatus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

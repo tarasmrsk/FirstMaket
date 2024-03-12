@@ -1,0 +1,74 @@
+@import 'style.scss';
+
+.card-prices {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  width: 260px;
+  height: 200px;
+}
+
+.table-prices {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: $black-blue-color;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table-item {
+  position: relative;
+  height: 65px;
+}
+
+.menu-item {
+  background-color: $secondary-color;
+}
+
+.table-item::after {
+  content: '';
+  width: 95%;
+  height: 1px;
+  background-color: $smoky-white-color;
+  position: absolute;
+  bottom: 0px;
+  left: 2.5%;
+}
+
+.prices-menu,
+.menu-text {
+  vertical-align: middle;
+  padding-left: 16px;
+}
+
+.button-table {
+  margin-top: 16px;
+}
+
+.prices-title {
+  font-size: 14px;
+  line-height: 16px;
+  color: $pale-blue-color;
+  opacity: 0.72;
+}
+
+.prices-text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: $black-blue-color;
+}
+
+.button__prices {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.prices-text {
+  margin-bottom: 16px;
+}
